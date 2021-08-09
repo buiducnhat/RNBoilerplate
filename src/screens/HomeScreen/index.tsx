@@ -3,9 +3,9 @@ import { SafeAreaView } from 'react-native';
 import { Button, Divider, Layout, TopNavigation, Toggle } from '@ui-kitten/components';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { RootStackParamList } from '../../navigations/Navigator';
-import { useAppDispatch, useAppSelector } from '../../hooks/reduxHooks';
-import { selectThemeType, toggleThemeType } from '../../features/ui/uiSlice';
+import { RootStackParamList } from '@src/navigations/BottomNavigator';
+import { useAppDispatch, useAppSelector } from '@src/hooks/reduxHooks';
+import { selectThemeType, toggleThemeType } from '@src/features/ui/uiSlice';
 
 type HomeScreenProp = NativeStackNavigationProp<RootStackParamList, 'Home'>;
 

@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { RootState } from '../../configs/redux/store';
+import { RootState } from '@src/configs/redux/store';
 
 export interface IUIState {
   themeType: 'light' | 'dark';

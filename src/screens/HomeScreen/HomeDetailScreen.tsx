@@ -10,7 +10,7 @@ import {
 } from '@ui-kitten/components';
 import { useNavigation } from '@react-navigation/core';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { RootStackParamList } from '../../navigations/Navigator';
+import { RootStackParamList } from '@src/navigations/BottomNavigator';
 
 type HomeDetailScreenProp = NativeStackNavigationProp<RootStackParamList, 'Details'>;
 

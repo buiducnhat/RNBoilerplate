@@ -2,8 +2,8 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { BottomNavigation, BottomNavigationTab } from '@ui-kitten/components';
-import { HomeScreen } from '../screens/HomeScreen';
-import { HomeDetailScreen } from '../screens/HomeScreen/HomeDetailScreen';
+import { HomeScreen } from '@src/screens/HomeScreen';
+import { HomeDetailScreen } from '@src/screens/HomeScreen/HomeDetailScreen';
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
